@@ -1,5 +1,5 @@
 import express from "express"
-import { createCourse,getCourse,enrollstudent } from "../controllers/courseControllers.js";
+import { createCourse,getCourse,enrollstudent } from "../controllers/courseController.js";
 
 const courseRouter=express.Router();
 
